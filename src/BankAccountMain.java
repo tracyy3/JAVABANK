@@ -14,7 +14,7 @@ private static final Scanner scanner = new Scanner(System.in);
         System.out.println("1. Yes" + a + "2. No");
             String response = scanner.nextLine();
                 if (response.equalsIgnoreCase("1")) {
-        System.out.println("Please confirm ID on the account");
+        System.out.println("Please confirm the ID on the account");
                 int query = Integer.valueOf(scanner.nextLine());
                 for (int i = 0; i < accounts.size(); i++) {
                 if (query == accounts.get(i).getAccNumber()) {
