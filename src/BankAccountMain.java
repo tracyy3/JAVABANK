@@ -69,7 +69,7 @@ private static final Scanner scanner = new Scanner(System.in);
         } 
 
         else if (response.equalsIgnoreCase("2")) {
-            System.out.println("Please put the amount you wish to withdraw.");
+            System.out.println("Please confirm the amount you want to withdraw.");
                 currentAccount.withdrawal(Double.valueOf(scanner.nextLine()));
             System.out.println("Your remaining balance is $" + currentAccount.getBalance());
                 continue;
